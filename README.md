@@ -82,4 +82,5 @@ OptimFROG is Copyright © 1996-2017, Florin Ghido, and is redistributed unmodifi
 
 ## Links
 Visit [my YouTube channel](http://www.youtube.com/channel/UCVY8W2RJUIzfqNYoGL83AnQ).
+
 Visit [my Twitter](http://twitter.com/pahandav).
