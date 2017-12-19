@@ -37,6 +37,8 @@ For more information and comparisons, please watch this video: https://youtu.be/
 
 Usage:
 
+On Windows, you can create a shortcut to sfq.exe on your desktop, and you can drag and drop files to it. Add -o to the target dialog after the sfq.exe path to use OptimFROG to compress (decompression can be done with any shortcut to sfq.exe).
+
 To decompress files, pass a sfq compressed file to the program.
 
 To compress files, pass a sf2 Soundfont to the program.
@@ -72,6 +74,7 @@ Jared Breland for his modpath.iss script for Inno Setup: http://www.legroom.net/
 
 TODO:
 
+Fix the Windows installer to add desktop shortcuts for drag and drop.
 Write a GUI.
 Fix it so it works properly on 32-bit Python (don't count on me doing this).
 

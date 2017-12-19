@@ -41,6 +41,8 @@ alt="Soundfont Compression" width="240" height="180" border="10" /></a>
 
 ## Usage:
 
+On Windows, you can create a shortcut to sfq.exe on your desktop, and you can drag and drop files to it. Add -o to the target dialog after the sfq.exe path to use OptimFROG to compress (decompression can be done with any shortcut to sfq.exe).
+
 To decompress files, pass a sfq compressed file to the program.
 
 To compress files, pass a sf2 Soundfont to the program.
@@ -75,6 +77,8 @@ OptimFROG is Copyright © 1996-2017, Florin Ghido, and is redistributed unmodifi
 
 
 ### TODO:
+
+* Fix the Windows installer to add desktop shortcuts for drag and drop.
 
 * Write a GUI.
 
