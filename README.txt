@@ -14,10 +14,11 @@ Executable encoders for FLAC and OptimFROG in your system's environment path.
 
 Installation:
 
-On Windows, use the setup installer release on the Github repo. This will install everything you need to run it on a command line.
+On Windows, use the setup installer release on the Github repo. This will install everything you need to run it on a command line, along with Desktop shortcuts you can drag and drop to.
 
 For other systems, download the source code from the Github repo, and place sfq.py into your system path.
 Obtain the appropriate FLAC binary from http://xiph.org/flac/, and the appropriate OptimFROG binary from http://losslessaudio.org/, and install them to your environment path. Use of a package manager to install these is highly recommended if possible.
+Feel free to delete the "input("Press Enter to continue...")" line from the script if only running from command line.
 
 Building:
 
@@ -37,7 +38,7 @@ For more information and comparisons, please watch this video: https://youtu.be/
 
 Usage:
 
-On Windows, you can create a shortcut to sfq.exe on your desktop, and you can drag and drop files to it. Add -o to the target dialog after the sfq.exe path to use OptimFROG to compress (decompression can be done with any shortcut to sfq.exe).
+On Windows, you can use the shortcuts on your Desktop to drag and drop files. Add -l and a level number to the target dialog after the sfq.exe path to use a different OptimFROG level to compress (decompression can be done with any shortcut to sfq.exe).
 
 To decompress files, pass a sfq compressed file to the program.
 
@@ -74,7 +75,6 @@ Jared Breland for his modpath.iss script for Inno Setup: http://www.legroom.net/
 
 TODO:
 
-Fix the Windows installer to add desktop shortcuts for drag and drop.
 Write a GUI.
 Fix it so it works properly on 32-bit Python (don't count on me doing this).
 

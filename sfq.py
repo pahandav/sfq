@@ -434,3 +434,5 @@ for filenameindex in range(len(filenamearg)):  # loop through filenames if wildc
             compresssoundfont24()
         data.close()
         binaryFile.close()
+
+input("Press Enter to continue...")
