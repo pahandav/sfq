@@ -1,4 +1,4 @@
-﻿sfq Version 1.0.0
+﻿sfq Version 1.0.1
 
 This program compresses and decompresses Soundfont (.sf2) files. It does so through the use of external FLAC or OptimFROG encoders. It is written in Python for cross-platform compatibility, and should both get better compression than SFArk and SFPACK, but should also not corrupt your files like SFPack does.
 
