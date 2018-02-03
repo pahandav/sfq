@@ -1,6 +1,6 @@
 [Setup]
 AppName=sfq
-AppVersion=1.0.0
+AppVersion=1.0.1
 DefaultDirName={pf}\sfq
 DefaultGroupName=sfq
 UninstallDisplayIcon={app}\sfq.exe
@@ -15,14 +15,14 @@ ArchitecturesAllowed=x64
 ; 64-bit Program Files directory and the 64-bit view of the registry.
 ArchitecturesInstallIn64BitMode=x64
 InternalCompressLevel=ultra64
-OutputBaseFilename=sfq-1.0.0-setup
-VersionInfoVersion=1.0.0
-VersionInfoTextVersion=1.0.0
+OutputBaseFilename=sfq-1.0.1-setup
+VersionInfoVersion=1.0.1
+VersionInfoTextVersion=1.0.1
 VersionInfoCopyright=2017, pahandav
 VersionInfoProductName=sfq
-VersionInfoProductVersion=1.0.0
-AppCopyright=2017, pahandav
-AppVerName=1.0.0
+VersionInfoProductVersion=1.0.1
+AppCopyright=2018, pahandav
+AppVerName=1.0.1
 LicenseFile=..\dist\sfq\LICENSE
 AppPublisher=pahandav
 UninstallDisplayName=sfq
